@@ -1,0 +1,7 @@
+@import url(icone-botao.css);
+
+.card__segunda-parte {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+@import url(caixa__texto.css);
+@import url(input-email.css);
+
+.cadastrar {
+    background: var(--branco);
+    font-family: var(--fonte-principal);
+}
+
+.cadastrar__caixa {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.7rem;
+}

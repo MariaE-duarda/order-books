@@ -1,0 +1,15 @@
+@import url(topicos-item.css);
+
+.topicos {
+    align-items: center;
+    background: var(--azul-gradiente);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+}
+
+.topicos__titulo {
+    margin: .6rem 0 2.5rem 0;
+    font-weight: 300;
+}

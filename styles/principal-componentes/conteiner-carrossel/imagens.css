@@ -1,0 +1,9 @@
+.image {
+    margin-top: var(--margin-top-bottom-das-imagens);
+    transition: all 1s;
+}
+
+.image img {
+    width: var(--largura-das-imagens);
+    transition: all 1s;
+}

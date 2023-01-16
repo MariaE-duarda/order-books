@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tela de Início</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="livros,leitores,livros pdf">
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/responsivo/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalho__nav-bar">
+                <input type="checkbox" id="menu" class="cabecalho__nav-bar___checkbox">
+                <label for="menu">
+                    <span class="icone menu"></span>
+                </label>
+
+                <ul class="cabecalho__nav-bar___menu">
+                    <li class="nav-bar__menu___item nav-bar__menu___categoria">Categoria</li>
+                    <li class="nav-bar__menu___item"><a href="#">PROGRAMAÇÃO</a></li>
+                    <li class="nav-bar__menu___item"><a href="#">FRONT-END</a></li>
+                    <li class="nav-bar__menu___item"><a href="#">INFRAESTRUTURA</a></li>
+                    <li class="nav-bar__menu___item"><a href="#">BUSINESS</a></li>
+                    <li class="nav-bar__menu___item"><a href="#">DESIGN & UX</a></li>
+                </ul>
+                
+                <span class="cabecalho__nav-bar___imagem-logo"><img src="../imgs/Logo.png"></span>
+
+                <ul class="cabecalho__nav-bar___menu-secundario">
+                    <li class="nav-bar__menu-secundario___item">
+                        <a href="#" class="menu-secundario__item___item-texto">CATEGORIAS</a>
+
+                        <ul class="menu-secundario__menu-interno">
+                            <a href="#" class="menu-secundario__menu-interno___item">
+                                <li class="menu-interno__item___item-texto">ROMANCE</li>
+                            </a>
+                            <a href="#" class="menu-secundario__menu-interno___item">
+                                <li class="menu-interno__item___item-texto">FANTASIA</li>
+                            </a>
+                            <a href="#" class="menu-secundario__menu-interno___item">
+                                <li class="menu-interno__item___item-texto">MISTERIO</li>
+                            </a>
+                            <a href="#" class="menu-secundario__menu-interno___item">
+                                <li class="menu-interno__item___item-texto">TERROR</li>
+                            </a>
+                            <a href="#" class="menu-secundario__menu-interno___item">
+                                <li class="menu-interno__item___item-texto">TRILLER</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="nav-bar__menu-secundario___item">
+                        <a href="#" class="menu-secundario__item___item-texto">FAVORITOS</a>
+                    </li>
+                    <li class="nav-bar__menu-secundario___item">
+                        <a href="#" class="menu-secundario__item___item-texto">MINHA ESTANTE</a>
+                    </li>
+
+                    <li class="nav-bar__menu-secundario___item nav-bar__menu-secundario___menu-interno">
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="cabecalho__nav-bar___icone">
+                <a><span class="icone icone-navegacao favorito" href="#"></span></a>
+                <a class="icone icone-navegacao compras" href="#"><img src="../imgs/Compras.png"></a>
+                <a class="icone icone-navegacao usuario" href="#"><img src="../imgs/Usuario.png"></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <article class="caixa">
+            <p class="caixa__titulo texto-destaque">Já sabe por onde começar?</p>
+
+            <h1 class="caixa__descricao">Encontre em nossa estante o que precisa para seu entretenimento!</h1>
+        </article>
+
+        <input type="text" class="pesquisa campo-input" placeholder="Qual será sua próxima leitura?">
+    </section>
+    
+    <section class="principal">
+        
+        <h2 class="principal__titulo texto-destaque">
+            SUGESTÕES DE LEITURA
+        </h2>
+        
+        <div class="principal__conteiner">
+            <div class="conteiner-carrossel">
+                <div class="btn" >
+                    <i data-primeiraSecao="voltar" class="voltar"></i>
+                </div>
+                <div class="btn" >
+                    <i data-primeiraSecao="proximo" class="proximo"></i>
+                </div>
+        
+                <div data-primeiraSecao="bolinhas" class="bolinhas">
+                    <div data-primeiraSecao="0" class="bolinha"></div>
+                    <div data-primeiraSecao="1" class="bolinha"></div>
+                    <div data-primeiraSecao="2" class="bolinha"></div>
+                    <div data-primeiraSecao="3" class="bolinha"></div>
+                </div>
+                
+                <div class="conteiner-carrossel__slide">
+                    <article class="carrossel__slide">
+                        <div class="carrossel__slide___imagens">
+                            <div data-primeiraSecao="image" class="image" id="0">
+                                <a href="#"><img src="../imgs/little-pricess.webp" alt=""></a>
+                            </div>
+
+                            <div data-primeiraSecao="image" class="image" id="1">
+                                <a href="#"><img src="../imgs/machado-assis.jpg" alt=""></a>
+                            </div>
+
+                            <div data-primeiraSecao="image" class="image" id="2">
+                                <a href="#"><img src="../imgs/almas-mortas.webp" alt=""></a>
+                            </div>
+
+                            <div data-primeiraSecao="image" class="image" id="3">
+                                <a href="#"><img src="../imgs/livro-russo.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <article class="card">
+                <div class="card__primeira-parte">
+                    <div class="primeira-parte__texto">
+                        <h3 class="primeira-parte__titulo-1">Talvez você também se interesse por...</h3>
+                        <p class="primeira-parte__titulo-2 texto-destaque">Angular 11 e Firebase</p>
+                        <p class="descricao">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+
+                    <div class="primeira-parte__image">
+                        <img style="width: 50px; height: 150px;" src="../imgs/books.webp">
+                    </div>
+                </div>
+
+                <div class="card__segunda-parte">
+                    <div class="segunda-parte__icone">
+                        <img class="segunda-parte__icone-favorito" src="../imgs/Favoritos.svg">
+                        <img class="segunda-parte__icone-compras" src="../imgs/Compras.png">
+                    </div>
+
+                    <div class="segunda-parte__botao">
+                        <a class="segunda-parte__botao___btn" type="submit" href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="principal">
+        <h2 class="principal__titulo texto-destaque">
+            MAIS VENDIDOS
+        </h2>
+        
+        <div class="principal__conteiner">
+            <div class="conteiner-carrossel">
+                <div class="btn" >
+                    <i data-segundaSecao="voltar" class="voltar"></i>
+                </div>
+                <div class="btn" >
+                    <i data-segundaSecao="proximo" class="proximo"></i>
+                </div>
+        
+                <div data-segundaSecao="bolinhas" class="bolinhas">
+                    <div data-segundaSecao="0" class="bolinha"></div>
+                    <div data-segundaSecao="1" class="bolinha"></div>
+                    <div data-segundaSecao="2" class="bolinha"></div>
+                    <div data-segundaSecao="3" class="bolinha"></div>
+                </div>
+
+                <div class="conteiner-carrossel__slide">
+                    <article class="carrossel__slide">
+                        <div class="carrossel__slide___imagens">
+                            <div data-segundaSecao="image" class="image">
+                                <a href="#"><img src="../imgs/boneco de neve.jpg" alt=""></a>
+                            </div>
+
+                            <div data-segundaSecao="image" class="image">
+                                <a href="#"><img src="../imgs/ensaio-cegueira.jpg" alt=""></a>
+                            </div>
+
+                            <div data-segundaSecao="image" class="image">
+                                <a href="#"><img src="../imgs/prinseca-livro.jpg" alt=""></a>
+                            </div>
+
+                            <div data-segundaSecao="image" class="image">
+                                <a href="#"><img src="../imgs/bruxa-livro.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <article class="card">
+                <div class="card__primeira-parte">
+                    <div class="primeira-parte__texto">
+                        <ul class="lista-icon">
+                            <li><img class="lista-icon__estrela" src="../imgs/Star 1.png"></li>
+                            <li><img class="lista-icon__estrela" src="../imgs/Star 1.png"></li>
+                            <li><img class="lista-icon__estrela" src="../imgs/Star 1.png"></li>
+                            <li><img class="lista-icon__estrela" src="../imgs/Star 1.png"></li>
+                            <li><img class="lista-icon__estrela" src="../imgs/Star 1.png"></li>
+                        </ul>
+                        <h3 class="primeira-parte__titulo-1">Autora do Mês</h3>
+                        <p class="primeira-parte__titulo-2 texto-destaque">Juliana Agarikov</p>
+                        <p class="descricao">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    </div>
+
+                    <div class="primeira-parte__image">
+                        <img src="../imgs/Perfil-escritora.png">
+                    </div>
+                </div>
+
+                <div class="card__segunda-parte">
+                    <div class="segunda-parte__icone">
+                        <img class="segunda-parte__icone-favorito" src="../imgs/Favoritos.svg">
+                        <img class="segunda-parte__icone-compras" src="../imgs/Compras.png">
+                    </div>
+
+                    <div class="segunda-parte__botao">
+                        <a class="segunda-parte__botao___btn" type="submit" href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+
+        <div>
+            <ul class="topicos__lista">
+                <li class="topicos__lista___item">
+                    <a href="#" class="lista__item___link">Romance</a>
+                </li>
+                <li class="topicos__lista___item">
+                    <a href="#" class="lista__item___link">Motivacional</a>
+                </li>
+                <li class="topicos__lista___item">
+                    <a href="#" class="lista__item___link">Fantasia</a>
+                </li>
+                <li class="topicos__lista___item">
+                    <a href="#" class="lista__item___link">Financeiro</a>
+                </li>
+                <li class="topicos__lista___item">
+                    <a href="#" class="lista__item___link">Mistério</a>
+                </li>
+                <li class="topicos__lista___item">
+                    <a href="#" class="lista__item___link">Famosos</a>
+                </li>
+                <li class="topicos__lista___item">
+                    <a href="#" class="lista__item___link">Poesia</a>
+                </li>
+                <li class="topicos__lista___item">
+                    <a href="#" class="lista__item___link">Terror</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cadastrar">
+        <div class="cadastrar__caixa">
+            <article class="caixa__texto">
+                <h3 class="caixa__texto___titulo">Fique por dentro das novidados!</h3>
+                
+                <p class="caixa__texto___descricao">
+                    Atualização de e-books, novos livro, promoções e outros
+                </p>
+            </article>
+
+            <div>
+                <input type="email" class="caixa__input-email campo-input" placeholder="Cadastre seu e-mail">
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="rodape">
+            <p class="rodape__logo-alura">Desenvolvimento Web</p>
+             
+            <ul class="rodape__lista">
+                <li class="rodape__lista___item">
+                    <p class="rodape__lista___item____titulo">EDUCAÇÃO</p>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/Caelum.png" alt="logo da Caelum" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Caelum</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/CasaDoCodigo.png" alt="logo da casa do código" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Casa do Código</a>
+                </li>
+            </ul>
+
+            <ul class="rodape__lista">
+                <li class="rodape__lista___item">
+                    <p class="rodape__lista___item____titulo">EDUCAÇÃO ONLINE</p>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/Alura.png" alt="logo da alura" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Alura</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/AluraEmpresas.png" alt="logo da alura para empresas" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Alura para empresas</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/AluraLatam.png" alt="logo da alura latam" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Alura LATAM</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/AluraStart.png" alt="logo da alura start" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Alura Start</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/MusicDot.png" alt="logo da musici dot" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">MusicDot</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/AluraLingua.png" alt="logo da alura língua" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Alura Língua</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/PM3.png" alt="logo da pm3" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">PM3</a>
+                </li>
+            </ul>
+                    
+            <ul class="rodape__lista">
+                <li class="rodape__lista___item">
+                    <p class="rodape__lista___item____titulo">COMUNIDADE</p>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/HipstersTech.png" alt="logo da hipsters ponto tech" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Hipsters ponto Tech</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/Scuba.png" alt="logo da scuba dev" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Scuba Dev</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/Layers.png" alt="logo da layers ponto tech" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Layers ponto Tech</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/LikeABoss.png" alt="logo da like a boss" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Like a Boss</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/CarreiraSemFronteira.png" alt="logo da carreira sem fronteira" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Carreira sem Fronteira</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/HipstersJobs.png" alt="logo da hipsters ponto jobs" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">Hipsters ponto Jobs</a>
+                </li>
+                <li class="rodape__lista___item">
+                    <img src="../imgs/GUJ.png" alt="logo da guj" class="rodape__lista___item____imagem">
+                    <a href="" class="rodape__lista___item____link">GUJ</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="../js/arquivos-index/carrossel-imagens-primeira-secao.js"></script>
+    <script type="module" src="../js/arquivos-index/carrossel-imagens-segunda-secao.js"></script>
+</body>
+</html>

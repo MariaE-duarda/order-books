@@ -1,0 +1,15 @@
+.bolinhas {
+    column-gap: .5rem;
+    display: flex;
+}
+
+.bolinha {
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    height: .6rem;
+    width: .6rem;
+}
+
+.bolinha-marcada--primeiraSecao, .bolinha-marcada--segundaSecao {
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+
+body{
+    background-image: url('../imgs/wallpaper.jpg');
+    height: 100vh;
+    width: 100%;
+}
+
+.container-all{
+    background: rgba(0, 0, 0, 0.699);
+    height: 100vh;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+.input-style{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.forminho{
+    margin-left: 6.5%;
+    width: 29%;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: -300px;
+}
+
+.container-form{
+    background-color: rgba(221, 221, 221, 0.151);
+    filter: blur(2px);
+    margin-left: 15%;
+    width: 70%;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0px 0px 5px 0px black;
+    margin-top: 30px;
+}
+
+.button-register{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    width: 90%;
+    margin-left: 55%;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+
+.button-register:hover{
+    color: white;
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+

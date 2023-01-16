@@ -1,0 +1,32 @@
+.rodape {
+    border-top: 1px solid #7c7c7c;
+    background: #F9F9F9;
+    font-family: var(--fonte-principal);
+    display: flex;
+}
+
+.rodape__lista {
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.rodape__lista___item {
+    align-items: center;
+    column-gap: .5rem;
+    display: flex;
+    font-size: .9rem;
+}
+
+.rodape__logo-alura {
+    font-weight: 400;
+}
+
+.rodape__lista___item____titulo {
+    color: #858585;
+    margin-bottom: 1rem;
+}
+
+.rodape__lista___item____link {
+    color: #474646;
+    text-decoration: none;
+}

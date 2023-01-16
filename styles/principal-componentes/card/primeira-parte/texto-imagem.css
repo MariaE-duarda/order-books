@@ -1,0 +1,31 @@
+.primeira-parte__texto {
+    font-family: var(--fonte-principal);
+    margin-right: .5rem;
+    max-width: 23rem;
+}
+
+.primeira-parte__titulo-1 {
+    color: #EB9B00;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.primeira-parte__titulo-2 {
+    margin: .8rem 1rem .8rem 0;
+    background: var(--azul-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.5rem;
+}
+
+.descricao {
+    font-size: .9rem;
+    line-height: 1.2rem;
+    margin-right: 1.8rem;
+}
+
+.primeira-parte__image img {
+    min-width: 10.2rem;
+}

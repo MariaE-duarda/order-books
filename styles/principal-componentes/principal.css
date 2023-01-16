@@ -1,0 +1,19 @@
+@import url(conteiner-carrossel/conteiner-carrossel.css);
+@import url(card/card.css);
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__titulo {
+    background: var(--branco);
+    color: #EB9B00;
+    display: block;
+    text-align: center;
+}
+
+.principal__conteiner {
+    display: flex;
+    flex-wrap: wrap;
+}

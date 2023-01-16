@@ -1,0 +1,15 @@
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 51rem;
+}
+
+.lista__item___link {
+    background: var(--laranja);
+    color: var(--branco);
+    display: inline-block;
+    font-weight: 500;
+    text-decoration: none;
+}

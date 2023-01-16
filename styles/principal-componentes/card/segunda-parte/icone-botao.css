@@ -1,0 +1,20 @@
+.segunda-parte__icone-compras {
+    width: 1.7rem;
+}
+
+.segunda-parte__icone {
+    column-gap: 2rem;
+    display: flex;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.segunda-parte__botao___btn {
+    color: var(--branco);
+    background: #EB9B00;
+    border: none;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .8rem 2.3rem;
+    text-decoration: none;
+}

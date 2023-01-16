@@ -1,0 +1,23 @@
+@import url(base/texto-destaque.css);
+@import url(base/campo-input.css);
+@import url(cabecalho-componentes/cabecalho.css);
+@import url(cabecalho-componentes/menu/menu.css);
+@import url(banner-componentes/banner.css);
+@import url(principal-componentes/principal.css);
+@import url(topcos-componentes/topicos.css);
+@import url(cadastrar-componentes/cadastrar.css);
+@import url(rodape-componentes/rodape.css);
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #EBECEE;
+    --laranja: #EB9B00;
+    --azul-gradiente: linear-gradient(97.54deg, black 35.49%, white 165.37%);
+    --fonte-principal: 'Poppins', 'sans-serif';
+}
+
+body {
+    font-size: 16px;
+    background: var(--cinza);
+    box-sizing: border-box;
+}

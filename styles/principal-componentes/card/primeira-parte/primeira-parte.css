@@ -1,0 +1,7 @@
+@import url(texto-imagem.css);
+@import url(icon-estrela.css);
+
+.card__primeira-parte {
+    display: flex;
+    justify-content: space-between;
+}

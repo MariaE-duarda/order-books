@@ -1,0 +1,26 @@
+@import url(../cabecalho-componentes/icone.css);
+@import url(../cabecalho-componentes/menu/menu.css);
+
+header {
+    background: var(--branco);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cabecalho__nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__nav-bar___icone {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__nav-bar___imagem-logo {
+    margin-right: 3rem;
+}

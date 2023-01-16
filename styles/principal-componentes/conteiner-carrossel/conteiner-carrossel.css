@@ -1,0 +1,41 @@
+@import url(../../responsivo/responsivo.css);
+@import url(bolinhas.css);
+@import url(botao.css);
+@import url(imagens.css);
+
+:root {
+    --espacamento-das-imagens: 1rem;
+    --margin-top-bottom-das-imagens: .2rem;
+    --altura-das-imagens: 19.2rem;
+    --largura-das-imagens: 11.5rem;
+    --quantidade-de-imagens: 4;
+    --espacamentos-entre-as-imagens: 3;
+}
+
+.conteiner-carrossel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: calc(var(--largura-das-imagens) * 3 + (var(--espacamento-das-imagens) + var(--espacamento-adicional)) * 2);
+    position: relative;
+}
+
+.conteiner-carrossel__slide {
+    overflow: hidden;
+    max-width: inherit;
+}
+
+.carrossel__slide {
+    overflow: auto;
+}
+
+.carrossel__slide::-webkit-scrollbar {
+    display: none;
+}
+
+.carrossel__slide___imagens {
+    align-items: center;
+    display: flex;
+    column-gap: calc(var(--espacamento-das-imagens) * var(--multiplicador-adicional));
+    width: calc(var(--largura-das-imagens) * var(--quantidade-de-imagens) + var(--espacamento-das-imagens) * var(--espacamentos-entre-as-imagens));
+}

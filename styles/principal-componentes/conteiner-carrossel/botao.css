@@ -1,0 +1,18 @@
+.proximo::before {
+    background: url(../../../image/proximo.png) center / contain;
+    right: -40px;
+}
+
+.voltar::before {
+    background: url(../../../image/voltar.png) center / contain;
+    left: -40px;
+}
+
+.proximo::before, .voltar::before {
+    border-radius: 50%;
+    content: '';
+    height: 3.5rem;
+    position: absolute;
+    top: 60%;
+    width: 3.5rem;
+}
