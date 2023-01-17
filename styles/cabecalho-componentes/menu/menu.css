@@ -10,7 +10,7 @@
 }
 
 .cabecalho__nav-bar___menu {
-    background: var(--branco);
+    background: black;
     box-shadow: 0 6px 6px 2px rgba(0, 0, 0, 0.3);
     display: none;
     font-family: var(--fonte-principal);

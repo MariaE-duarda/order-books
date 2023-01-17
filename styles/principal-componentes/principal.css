@@ -7,7 +7,7 @@
 }
 
 .principal__titulo {
-    background: var(--branco);
+    background: rgb(17, 17, 17);
     color: #EB9B00;
     display: block;
     text-align: center;

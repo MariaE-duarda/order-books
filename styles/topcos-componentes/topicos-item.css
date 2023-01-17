@@ -8,7 +8,7 @@
 
 .lista__item___link {
     background: var(--laranja);
-    color: var(--branco);
+    color: black;
     display: inline-block;
     font-weight: 500;
     text-decoration: none;
